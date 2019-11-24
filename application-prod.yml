@@ -1,0 +1,43 @@
+
+smsgw:
+  shortcode: 777
+  alias: 777
+  url: http://10.226.46.48:9201/smsws?wsdl
+  username: 777u
+  password: 777p
+
+tfc:
+  ws:
+    username: TFC2019u
+    password: TFC2019p
+
+  msg:
+    help: Test - This is help message
+    check: Test - This is check message
+    getDe: "Dream Entertainment Lottery on {drawdate}: {result}. Resultadu ba referensia."
+    getFt: "FITUN Lottery on {drawdate}: {result}. Resultadu ba referensia."
+    wrongcmd: Wrong command!
+
+  lottery:
+    de:
+      serviceId: LUCKYSTAR_DE
+      draw-hours: 21
+      resultScheduler.fixedRate-in-milliseconds: 5000
+      resultScheduler.limitRow: 50
+    ft:
+      serviceId: LUCKYSTAR_FT
+      draw-hours: 21
+      resultScheduler.fixedRate-in-milliseconds: 5000
+      resultScheduler.limitRow: 50
+    betting:
+      bet_before_hour: 11
+      wrong_syntax_message: Dev wrong syntax
+      over_time_message: Dev Over time
+      bet_success_message: "Dev Bet success {date}, {number}"
+    smstpl:
+      lucknumbersms: "{luckynumber} is your lucky number. Good luck!"
+  news:
+    sportnews:
+      serviceId: LUCKYSTAR_SPORTNEWS
+
+
