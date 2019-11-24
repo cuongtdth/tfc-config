@@ -3,7 +3,7 @@
 # Property used on app startup to check the config server status
 configserver:
   name: Docker JHipster Registry
-  status: Connected to the JHipster Registry running in Docker (https://github.com/cuongtdth/tfc-config)
+  status: Connected to the JHipster Registry (https://github.com/cuongtdth/tfc-config)
 
 jhipster:
   security:
