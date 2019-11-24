@@ -3,7 +3,7 @@
 # Property used on app startup to check the config server status
 configserver:
   name: Docker JHipster Registry
-  status: Connected to the JHipster Registry running in Docker
+  status: Connected to the JHipster Registry running in Docker (https://github.com/cuongtdth/tfc-config)
 
 jhipster:
   security:
@@ -29,7 +29,7 @@ spring:
       client:
         provider:
           oidc:
-            issuer-uri: https://dev-737523.okta.com/oauth2/default
+            issuer-uri: https://dev-683405.okta.com/oauth2/default
         registration:
           oidc:
             client-id: 0oa1xiepe4VoCcTAu357 
