@@ -1,24 +1,39 @@
-# ===================================================================
-# JHipster Sample Spring Cloud Config.
-# ===================================================================
 
+#common configuration shared between all applications
 # Property used on app startup to check the config server status
 configserver:
-    name: JHipster Registry config server
-    status: Connected to the JHipster Registry config server!
+  name: Docker JHipster Registry
+  status: Connected to the JHipster Registry running in Docker
 
-# Default JWT secret token (to be changed in production!)
 jhipster:
-    security:
-        authentication:
-            jwt:
-                # It is recommended to encrypt the secret key in Base64, using the `base64-secret` property.
-                # For compabitibily issues with applications generated with older JHipster releases,
-                # we use the non Base64-encoded `secret` property here.
-                secret: my-secret-key-which-should-be-changed-in-production-and-be-base64-encoded
-                # The `base64-secret` property is recommended if you use JHipster v5.3.0+
-                # (you can type `echo 'secret-key'|base64` on your command line)
-                # base64-secret: bXktc2VjcmV0LWtleS13aGljaC1zaG91bGQtYmUtY2hhbmdlZC1pbi1wcm9kdWN0aW9uLWFuZC1iZS1iYXNlNjQtZW5jb2RlZAo=
+  security:
+    authentication:
+      jwt:
+        # It is recommended to encrypt the secret key in Base64, using the `base64-secret` property.
+        # For compabitibily issues with applications generated with older JHipster releases,
+        # we use the non Base64-encoded `secret` property here.
+        # secret: my-secret-key-which-should-be-changed-in-production-and-be-base64-encoded
+        # The `base64-secret` property is recommended if you use JHipster v5.3.0+
+        # (you can type `echo 'secret-key'|base64` on your command line)
+        # base64-secret: bXktc2VjcmV0LWtleS13aGljaC1zaG91bGQtYmUtY2hhbmdlZC1pbi1wcm9kdWN0aW9uLWFuZC1iZS1iYXNlNjQtZW5jb2RlZAo=
+        base64-secret: NDExZTFhM2Q3MTRjMjdkYTIwYzFiNTdkNmMzNTRhN2Y3N2JkYzBiODdmMmJlYmI0YjFlOTRhOWFjODFlZjc3ZjQzYzg2ODQ1YWI4YzdhOWM2MmUyNjE0ZjBmYjM5ZTFiNTg2Nw==
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://admin:${jhipster.registry.password}@jhipster-registry:8761/eureka/
+
+spring:
+  security:
+    oauth2:
+      client:
+        provider:
+          oidc:
+            issuer-uri: https://dev-737523.okta.com/oauth2/default
+        registration:
+          oidc:
+            client-id: 0oa1xiepe4VoCcTAu357 
+            client-secret: nKfwTTsexp3JORpPZ2BGyh3jUMsMHboXQ2dZ9EVK
 
 # Enable /management/logfile endpoint for all apps
 logging:
