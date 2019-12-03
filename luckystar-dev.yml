@@ -24,8 +24,8 @@ tfc:
       # mps_key_dir: /Users/cuongtd/TFC/docs/luckydraw/key_add
     sms:
       mtScheduler:
-        active: false
-        fixedRate-in-milliseconds: 30000
+        active: true
+        fixedRate-in-milliseconds: 5000
         limitRow: 50
     modbalance:
       serviceId: LUCKYSTAR_MODBALANCE
@@ -41,7 +41,7 @@ tfc:
         serviceId: LUCKYSTAR_DE
         draw-hours: 21
         resultScheduler:
-          active: false
+          active: true
           fixedRate-in-milliseconds: 15000
           limitRow: 50
         phone.approve: "75511095"
