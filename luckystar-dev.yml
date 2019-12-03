@@ -9,3 +9,81 @@ spring:
     url: jdbc:oracle:thin:@localhost:1521:ORCLCDB
     username: luckystar
     password: 1qazZAQ!
+
+tfc:
+  luckystar:
+    smsgw:
+      shortcode: 777
+      alias: 777
+      url: http://10.226.46.48:9201/smsws?wsdl
+      username: 777u
+      password: 777p
+    ws:
+      username: TFC2019u
+      password: TFC2019p
+      # mps_key_dir: /Users/cuongtd/TFC/docs/luckydraw/key_add
+    sms:
+      mtScheduler:
+        active: false
+        fixedRate-in-milliseconds: 30000
+        limitRow: 50
+    modbalance:
+      serviceId: LUCKYSTAR_MODBALANCE
+      mps_key_dir: /Users/cuongtd/TFC/key/LUCKYSTAR_MODBALANCE
+    lottery:
+      msg:
+        help: Test - This is help message
+        check: Test - This is check message
+        getDe: "Dream Entertainment Lottery on {drawdate}: {result}. Resultadu ba referensia."
+        getFt: "FITUN Lottery on {drawdate}: {result}. Resultadu ba referensia."
+        wrongcmd: Wrong command!
+      de:
+        serviceId: LUCKYSTAR_DE
+        draw-hours: 21
+        resultScheduler:
+          active: false
+          fixedRate-in-milliseconds: 15000
+          limitRow: 50
+        phone.approve: "75511095"
+        phone.notification: "75511095"
+      ft:
+        serviceId: LUCKYSTAR_FT
+        draw-hours: 21
+        resultScheduler:
+          active: false
+          fixedRate-in-milliseconds: 15000
+          limitRow: 50
+      betting:
+        serviceId: LUCKYSTAR_BETTING
+        mps_key_dir: /Users/cuongtd/TFC/key/LUCKYSTAR_BETTING
+        bet_before_hour: 22
+        wrong_syntax_message: "Sorry, Right syntax is: TARA XX. In which XX is the 2-digit number that you predict. Please try again!"
+        over_time_message: "The predict time is from 00:00 to 21:00 everyday, please try again next time. Thank you!"
+        bet_success_message: "Predict successful. Your predicted number is {number} on {drawdate}. We will notify you as soon as results are available. Good luck."
+        win_amount_1: 150
+        win_message_1: "Congratulations, you won {winamount} for predicting number {number} matches with 1st DE lottery on {drawdate}. Reply DE (20 cents/time) or ON DE (10 cents/day) to check the result."
+        win_amount_2: 25
+        win_message_2: "Congratulations, you won {winamount} for predicting number {number} matches {wintimes} times with DE lottery on {drawdate}. Reply DE (20 cents/time) or ON DE (10 cents/day) to check the result."
+        lose_message: "Sorry, your predicted number {number} doesn’t match any number of DE Lottery on {drawdate}. Try again now."
+        scheduler:
+          active: false
+          check_after_hour: 23
+          check_after_minute: 0
+          check_after_draw_minute: 30
+          fixedRate-in-milliseconds: 15000
+          limitRow: 50
+      smstpl:
+        lucknumbersms: "{luckynumber} is your lucky number. Good luck!"
+    news:
+      sportnews:
+        serviceId: LUCKYSTAR_SPORTNEWS
+        scheduler:
+          active: false
+          fixedRate-in-milliseconds: 45000
+          limitRow: 50
+      starnews:
+        serviceId: LUCKYSTAR_STARNEWS
+        scheduler:
+          active: false
+          fixedRate-in-milliseconds: 45000
+          limitRow: 50
