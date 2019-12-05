@@ -46,6 +46,7 @@ tfc:
           limitRow: 50
         phone.approve: "75511095"
         phone.notification: "75511095"
+        sms_template: "Dream Entertainment Lottery on {drawdate}: {result}. Resultadu ba referensia."
       ft:
         serviceId: LUCKYSTAR_FT
         draw-hours: 21
