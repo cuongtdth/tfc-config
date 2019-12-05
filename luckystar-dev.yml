@@ -51,14 +51,15 @@ tfc:
         serviceId: LUCKYSTAR_FT
         draw-hours: 21
         resultScheduler:
-          active: false
+          active: true
           fixedRate-in-milliseconds: 15000
           limitRow: 50
+          sms_template: "Fitun Lottery on {drawdate}: {result}. Resultadu ba referensia."
       betting:
         serviceId: LUCKYSTAR_BETTING
         mps_key_dir: /Users/cuongtd/TFC/key/LUCKYSTAR_BETTING
         bet_before_hour: 22
-        wrong_syntax_message: "Sorry, Right syntax is: TARA XX. In which XX is the 2-digit number that you predict. Please try again!"
+        wrong_syntax_message: "Sorry, Right syntax is: KISS XX. In which XX is the 2-digit number that you predict. Please try again!"
         over_time_message: "The predict time is from 00:00 to 21:00 everyday, please try again next time. Thank you!"
         bet_success_message: "Predict successful. Your predicted number is {number} on {drawdate}. We will notify you as soon as results are available. Good luck."
         win_amount_1: 150
@@ -86,5 +87,11 @@ tfc:
         serviceId: LUCKYSTAR_STARNEWS
         scheduler:
           active: false
+          fixedRate-in-milliseconds: 45000
+          limitRow: 50
+      hundredYearsAgo:
+        serviceId: LUCKYSTAR_100YEARSAGO
+        scheduler:
+          active: true
           fixedRate-in-milliseconds: 45000
           limitRow: 50
