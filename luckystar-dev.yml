@@ -39,7 +39,7 @@ tfc:
         wrongcmd: Wrong command!
       de:
         serviceId: LUCKYSTAR_DE
-        draw-time: 21:30:00
+        draw-time: "21:30:00"
         resultScheduler:
           active: true
           fixedRate-in-milliseconds: 15000
@@ -50,7 +50,7 @@ tfc:
         sms_no_result_today: "No result today yet. We will send it to you as soon as it is drawn."
       ft:
         serviceId: LUCKYSTAR_FT
-        draw-time: 21:30:00
+        draw-time: "21:30:00"
         resultScheduler:
           active: true
           fixedRate-in-milliseconds: 15000
