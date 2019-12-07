@@ -39,7 +39,7 @@ tfc:
         wrongcmd: Wrong command!
       de:
         serviceId: LUCKYSTAR_DE
-        draw-hours: 21
+        draw-time: 21:30
         resultScheduler:
           active: true
           fixedRate-in-milliseconds: 15000
@@ -47,14 +47,16 @@ tfc:
         phone.approve: "75511095"
         phone.notification: "75511095"
         sms_template: "Dream Entertainment Lottery on {drawdate}: {result}. Resultadu ba referensia."
+        sms_no_result_today: "No result today yet. We will send it to you as soon as it is drawn."
       ft:
         serviceId: LUCKYSTAR_FT
-        draw-hours: 21
+        draw-time: 21:30
         resultScheduler:
           active: true
           fixedRate-in-milliseconds: 15000
           limitRow: 50
         sms_template: "Fitun Lottery on {drawdate}: {result}. Resultadu ba referensia."
+        sms_no_result_today: "No result today yet. We will send it to you as soon as it is drawn."
       betting:
         serviceId: LUCKYSTAR_BETTING
         mps_key_dir: /Users/cuongtd/TFC/key/LUCKYSTAR_BETTING
