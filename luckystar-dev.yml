@@ -46,8 +46,8 @@ tfc:
           limitRow: 50
         phone.approve: "75511095"
         phone.notification: "75511095"
-        sms_template: "Dream Entertainment Lottery on {drawdate}: {result}. Resultadu ba referensia."
-        sms_no_result_today: "No result today yet. We will send it to you as soon as it is drawn."
+        sms_template: "Dream Entertainment Lottery on {drawdate}: \n{result}. \nResultadu ba referensia."
+        sms_no_result_today: "No result today yet. Please try later."
       ft:
         serviceId: LUCKYSTAR_FT
         draw-time: "21:30:00"
@@ -55,8 +55,8 @@ tfc:
           active: true
           fixedRate-in-milliseconds: 15000
           limitRow: 50
-        sms_template: "Fitun Lottery on {drawdate}: {result}. Resultadu ba referensia."
-        sms_no_result_today: "No result today yet. We will send it to you as soon as it is drawn."
+        sms_template: "Fitun Lottery on {drawdate}: \n{result}. \nResultadu ba referensia."
+        sms_no_result_today: "No result today yet. Please try later."
       betting:
         serviceId: LUCKYSTAR_BETTING
         mps_key_dir: /Users/cuongtd/TFC/key/LUCKYSTAR_BETTING
