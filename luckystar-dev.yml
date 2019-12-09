@@ -24,7 +24,7 @@ tfc:
       # mps_key_dir: /Users/cuongtd/TFC/docs/luckydraw/key_add
     sms:
       mtScheduler:
-        active: true
+        active: false
         fixedRate-in-milliseconds: 5000
         limitRow: 50
     modbalance:
@@ -41,7 +41,7 @@ tfc:
         serviceId: LUCKYSTAR_DE
         draw-time: "11:30:00"
         resultScheduler:
-          active: true
+          active: false
           fixedRate-in-milliseconds: 15000
           limitRow: 50
         phone.approve: "75511095"
@@ -52,7 +52,7 @@ tfc:
         serviceId: LUCKYSTAR_FT
         draw-time: "21:30:00"
         resultScheduler:
-          active: true
+          active: false
           fixedRate-in-milliseconds: 15000
           limitRow: 50
         sms_template: "Fitun Lottery on {drawdate}: \n{result}. \nResultadu ba referensia."
@@ -94,6 +94,6 @@ tfc:
       hundredYearsAgo:
         serviceId: LUCKYSTAR_100YEARSAGO
         scheduler:
-          active: true
+          active: false
           fixedRate-in-milliseconds: 45000
           limitRow: 50
