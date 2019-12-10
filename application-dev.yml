@@ -1,10 +1,6 @@
-
-smsgw:
-  shortcode: 777
-  alias: 777
-  url: http://10.226.46.48:9201/smsws?wsdl
-  username: 777u
-  password: 777p
-
-
-
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://admin:${jhipster.registry.password}@registry.tfc.com:8761/eureka/
