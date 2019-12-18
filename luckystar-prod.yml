@@ -70,6 +70,7 @@ spring:
       hibernate.cache.hazelcast.use_lite_member: true
   # Replace by 'prod, faker' to add the faker context and have sample data loaded in production
   liquibase:
+    enabled: false
     contexts: prod
   mail:
     host: smtp.gmail.com
