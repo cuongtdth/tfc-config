@@ -1,6 +1,0 @@
-eureka:
-  instance:
-    prefer-ip-address: true
-  client:
-    service-url:
-      defaultZone: http://admin:${jhipster.registry.password}@registry.tfc.com:8761/eureka/
