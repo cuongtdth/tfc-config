@@ -18,17 +18,17 @@ jhipster:
         # base64-secret: bXktc2VjcmV0LWtleS13aGljaC1zaG91bGQtYmUtY2hhbmdlZC1pbi1wcm9kdWN0aW9uLWFuZC1iZS1iYXNlNjQtZW5jb2RlZAo=
         base64-secret: NDExZTFhM2Q3MTRjMjdkYTIwYzFiNTdkNmMzNTRhN2Y3N2JkYzBiODdmMmJlYmI0YjFlOTRhOWFjODFlZjc3ZjQzYzg2ODQ1YWI4YzdhOWM2MmUyNjE0ZjBmYjM5ZTFiNTg2Nw==
 
-spring:
-  security:
-    oauth2:
-      client:
-        provider:
-          oidc:
-            issuer-uri: https://dev-683405.okta.com/oauth2/default
-        registration:
-          oidc:
-            client-id: 0oa1xiepe4VoCcTAu357 
-            client-secret: nKfwTTsexp3JORpPZ2BGyh3jUMsMHboXQ2dZ9EVK
+# spring:
+#   security:
+#     oauth2:
+#       client:
+#         provider:
+#           oidc:
+#             issuer-uri: https://dev-683405.okta.com/oauth2/default
+#         registration:
+#           oidc:
+#             client-id: 0oa1xiepe4VoCcTAu357 
+#             client-secret: nKfwTTsexp3JORpPZ2BGyh3jUMsMHboXQ2dZ9EVK
 
 # Enable /management/logfile endpoint for all apps
 # logging:
