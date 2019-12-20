@@ -1,20 +1,4 @@
 spring:
-  profiles: peer1
-eureka:
-  instance:
-    hostname: eureka-peer-1
-  client:
-    serviceUrl:
-      defaultZone: http://admin:${spring.security.user.password:T1qazZAQ!}@eureka-peer-2:8761/eureka/
-spring:
-  profiles: peer2
-eureka:
-  instance:
-    hostname: eureka-peer-2
-  client:
-    serviceUrl:
-      defaultZone: http://admin:${spring.security.user.password:T1qazZAQ!}@eureka-peer-1:8761/eureka/
-spring:
   security:
     user:
       name: admin
