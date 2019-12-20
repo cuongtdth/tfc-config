@@ -12,3 +12,5 @@ spring:
           oidc:
             client-id: 0oa1xiepe4VoCcTAu357
             client-secret: nKfwTTsexp3JORpPZ2BGyh3jUMsMHboXQ2dZ9EVK
+logging:
+    file: log/jhipster-registry.log
