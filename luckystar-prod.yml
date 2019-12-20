@@ -225,7 +225,7 @@ tfc:
         sms_no_result_today: "No result today yet. Please try later."
       betting:
         serviceId: LUCKYSTAR_BETTING
-        mps_key_dir: /Users/cuongtd/TFC/key/LUCKYSTAR_BETTING
+        mps_key_dir: /u01/app/luckystar/key/LUCKYSTAR_BETTING
         bet_before_hour: 22
         wrong_syntax_message: "Sorry, Right syntax is: KISS XX. In which XX is the 2-digit number that you predict. Please try again!"
         over_time_message: "The predict time is from 00:00 to 21:00 everyday, please try again next time. Thank you!"
