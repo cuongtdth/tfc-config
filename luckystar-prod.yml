@@ -35,8 +35,6 @@ management:
         enabled: false
 
 spring:
-  application:
-    instance-id: 146
   devtools:
     restart:
       enabled: false
