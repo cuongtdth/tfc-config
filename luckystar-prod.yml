@@ -192,7 +192,7 @@ tfc:
       mtScheduler:
         active: true
         fixedRate-in-milliseconds: 5000
-        limitRow: 50
+        limitRow: 25
     modbalance:
       serviceId: LUCKYSTAR_MODBALANCE
       mps_key_dir: /Users/cuongtd/TFC/key/LUCKYSTAR_MODBALANCE
@@ -208,8 +208,8 @@ tfc:
         draw-time: "21:30:00"
         resultScheduler:
           active: true
-          fixedRate-in-milliseconds: 15000
-          limitRow: 50
+          fixedRate-in-milliseconds: 10000
+          limitRow: 25
         phone.approve: "75511095"
         phone.notification: "75511095"
         sms_template: "Dream Entertainment Lottery on {drawdate}: \n{result}. \nResultadu ba referensia."
@@ -219,8 +219,8 @@ tfc:
         draw-time: "21:30:00"
         resultScheduler:
           active: true
-          fixedRate-in-milliseconds: 15000
-          limitRow: 50
+          fixedRate-in-milliseconds: 10000
+          limitRow: 25
         sms_template: "Fitun Lottery on {drawdate}: \n{result}. \nResultadu ba referensia."
         sms_no_result_today: "No result today yet. Please try later."
       betting:
@@ -241,7 +241,7 @@ tfc:
           check_after_minute: 0
           check_after_draw_minute: 30
           fixedRate-in-milliseconds: 15000
-          limitRow: 50
+          limitRow: 25
       smstpl:
         lucknumbersms: "{luckynumber} is your lucky number. Good luck!"
     news:
@@ -250,16 +250,16 @@ tfc:
         scheduler:
           active: true
           fixedRate-in-milliseconds: 30000
-          limitRow: 50
+          limitRow: 25
       starnews:
         serviceId: LUCKYSTAR_STARNEWS
         scheduler:
           active: true
           fixedRate-in-milliseconds: 30000
-          limitRow: 50
+          limitRow: 25
       hundredYearsAgo:
         serviceId: LUCKYSTAR_100YEARSAGO
         scheduler:
           active: true
           fixedRate-in-milliseconds: 30000
-          limitRow: 50
+          limitRow: 25
