@@ -16,9 +16,9 @@
 logging:
   file: log/gateway.log
   level:
-    ROOT: INFO
-    io.github.jhipster: INFO
-    com.tfc.gateway: INFO
+    ROOT: DEBUG
+    io.github.jhipster: DEBUG
+    com.tfc.gateway: DEBUG
 
 eureka:
   instance:
