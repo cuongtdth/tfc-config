@@ -19,6 +19,10 @@ logging:
     ROOT: INFO
     io.github.jhipster: INFO
     com.tfc.luckystar: INFO
+    org.springframework.ws.server.MessageTracing.sent: DEBUG
+    org.springframework.ws.server.MessageTracing.received: DEBUG
+    org.springframework.ws.client.MessageTracing.sent: DEBUG
+    org.springframework.ws.client.MessageTracing.received: DEBUG
 
 eureka:
   instance:
