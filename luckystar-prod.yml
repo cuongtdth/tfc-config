@@ -224,7 +224,7 @@ tfc:
         serviceId: LUCKYSTAR_FT
         draw-time: "21:30:00"
         resultScheduler:
-          active: true
+          active: false
           fixedRate-in-milliseconds: 10000
           limitRow: 25
         sms_template: "Fitun Lottery on {drawdate}: \n{result}. \nResultadu ba referensia."
