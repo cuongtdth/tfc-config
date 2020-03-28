@@ -240,6 +240,6 @@ tfc:
       healthnews:
         serviceId: LUCKYSTAR_HEALTHNEWS
         scheduler:
-          active: true
+          active: false
           fixedRate-in-milliseconds: 15000
           limitRow: 50
