@@ -237,3 +237,9 @@ tfc:
           active: false
           fixedRate-in-milliseconds: 45000
           limitRow: 50
+      healthnews:
+        serviceId: LUCKYSTAR_HEALTHNEWS
+        scheduler:
+          active: true
+          fixedRate-in-milliseconds: 15000
+          limitRow: 50
