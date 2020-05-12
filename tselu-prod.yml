@@ -22,7 +22,7 @@ logging:
 eureka:
   instance:
     prefer-ip-address: true
-    instanceId: luckystar:${spring.application.instance-id:${random.value}}
+    instanceId: tselu:${spring.application.instance-id:${random.value}}
   client:
     service-url:
       defaultZone: http://admin:${jhipster.registry.password}@eureka-peer-1:8761/eureka/,http://admin:${jhipster.registry.password}@eureka-peer-2:8761/eureka/
