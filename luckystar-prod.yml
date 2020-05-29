@@ -232,22 +232,22 @@ tfc:
       betting:
         serviceId: LUCKYSTAR_BETTING
         mps_key_dir: /u01/app/luckystar/key/LUCKYSTAR_BETTING
-        bet_before_hour: 22
+        bet_before_hour: 18
         wrong_syntax_message: "Sorry, Right syntax is: KISS XX. In which XX is the 2-digit number that you predict. Please try again!"
-        over_time_message: "The predict time is from 00:00 to 21:00 everyday, please try again next time. Thank you!"
+        over_time_message: "The predict time is from 00:00 to 18:00 everyday, please try again next time. Thank you!"
         bet_success_message: "Predict successful. Your predicted number is {number} on {drawdate}. We will notify you as soon as results are available. Good luck."
         win_amount_1: 150
         win_message_1: "Congratulations, you won {winamount} for predicting number {number} matches with 1st DE lottery on {drawdate}. Reply DE (20 cents/time) or ON DE (10 cents/day) to check the result."
         win_amount_2: 25
         win_message_2: "Congratulations, you won {winamount} for predicting number {number} matches {wintimes} times with DE lottery on {drawdate}. Reply DE (20 cents/time) or ON DE (10 cents/day) to check the result."
-        lose_message: "Sorry, your predicted number {number} doesn’t match any number of DE Lottery on {drawdate}. Try again now."
+        lose_message: "Sorry, your predicted number {number} doesn’t match any number of DE Lottery on {drawdate}."
         scheduler:
-          active: false
+          active: true
           check_after_hour: 23
           check_after_minute: 0
           check_after_draw_minute: 30
-          fixedRate-in-milliseconds: 15000
-          limitRow: 25
+          fixedRate-in-milliseconds: 5000
+          limitRow: 10
       smstpl:
         lucknumbersms: "{luckynumber} is your lucky number. Good luck!"
     news:
