@@ -232,15 +232,15 @@ tfc:
       betting:
         serviceId: LUCKYSTAR_BETTING
         mps_key_dir: /u01/app/luckystar/key/LUCKYSTAR_BETTING
-        bet_before_hour: 18
-        wrong_syntax_message: "Sorry, Right syntax is: KISS XX. In which XX is the 2-digit number that you predict. Please try again!"
-        over_time_message: "The predict time is from 00:00 to 18:00 everyday, please try again next time. Thank you!"
-        bet_success_message: "Predict successful. Your predicted number is {number} on {drawdate}. We will notify you as soon as results are available. Good luck."
-        win_amount_1: 150
-        win_message_1: "Congratulations, you won {winamount} for predicting number {number} matches with 1st DE lottery on {drawdate}. Reply DE (20 cents/time) or ON DE (10 cents/day) to check the result."
+        bet_before_hour: 20
+        wrong_syntax_message: "Deskulpa, Sintaxe loos mak: KISS XX. Numeru XX mak numeru dijitu rua neebe ita aposta. Favor koko fali!"
+        over_time_message: "Oras aposta hahu 00:00 ba 20:00 lor-loron, favor koko hikas tempu seluk. Obrigadu!"
+        bet_success_message: "Aposta ho susesu. Ita aposta ona 10cent ba numeru {number} lotaria KISS (DE) iha loron {drawdate}. bele manan liu $3. Ami sei informa bainhira rezultadu disponivel. Boa Sorte."
+        win_amount_1: 300
+        win_message_1: "Parabens, ita manan {winamount} ba numeru aposta {number} ho premiu bola primeiru lotaria KISS iha {drawdate}. Hatan DE (20cent/tempu) ka ON DE (10cent/loron) hodi haree rezultadu."
         win_amount_2: 25
-        win_message_2: "Congratulations, you won {winamount} for predicting number {number} matches {wintimes} times with DE lottery on {drawdate}. Reply DE (20 cents/time) or ON DE (10 cents/day) to check the result."
-        lose_message: "Sorry, your predicted number {number} doesn’t match any number of DE Lottery on {drawdate}."
+        win_message_2: "Parabens, ita manan {winamount} ba numeru aposta {number} dala {wintimes} ho lotaria KISS iha {drawdate}. Hatan DE (20cent/tempu) ka ON DE (10cent/loron) hodi haree rezultadu."
+        lose_message: "Ita nia numeru aposta {number} la par ho kualker rezultadu husi lotaria KISS loron {drawdate}."
         scheduler:
           active: true
           check_after_hour: 23
