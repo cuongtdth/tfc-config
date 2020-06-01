@@ -157,3 +157,35 @@ jhipster:
 # ===================================================================
 
 # application:
+
+tselu:
+  smsgw:
+    shortcode: 7577
+    alias: 7577
+    url: http://10.226.46.114:9201/smsgw?wsdl
+    username: 7577u
+    password: 7577p
+  ws:
+    username: Tselu2020u
+    password: Tselu2020p
+  sms:
+    mtScheduler:
+      active: false
+      fixedRate-in-milliseconds: 5000
+      limitRow: 50
+    success_message: "[Tselu.com] Ita selu ona {fee} hodi sosa {point} UC PUBG mobile game. Kodigu Voucher mak {code}. Asesu https://bit.ly/PUBGTimor hodi redeem. Obrigadu."
+    wrong_syntax_message: ""
+  modbalance:
+    serviceId: TSELU_MODBALANCE
+    mps_key_dir: /Users/cuongtd/TFC/key/TSELU_MODBALANCE
+    service: LUCKYSTAR
+    subService: TSELU_MODBALANCE
+    url: http://10.226.46.22:9181/MPS/charge.html?
+    url-params:
+      pro: TFC
+      ser: TSELU
+      sub: TSELU_MODBALANCE
+      cmd: MODBALANCEM
+    data-params:
+    command: MODBALANCEM
+    proCode: 
