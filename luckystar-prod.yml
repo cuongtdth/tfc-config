@@ -249,7 +249,7 @@ tfc:
         bet_success_message: "Aposta ho susesu. Ita aposta ona 10cent ba numeru {number} lotaria KISS (DE) iha loron {drawdate}. bele manan liu $3. Ami sei informa bainhira rezultadu disponivel. Boa Sorte."
         win_amount_1: 300
         win_message_1: "Parabens, ita manan {winamount} ba numeru aposta {number} ho premiu bola primeiru lotaria KISS iha {drawdate}. Hatan DE (20cent/tempu) ka ON DE (10cent/loron) hodi haree rezultadu."
-        win_amount_2: 25
+        win_amount_2: 30
         win_message_2: "Parabens, ita manan {winamount} ba numeru aposta {number} dala {wintimes} ho lotaria KISS iha {drawdate}. Hatan DE (20cent/tempu) ka ON DE (10cent/loron) hodi haree rezultadu."
         lose_message: "Ita nia numeru aposta {number} la par ho kualker rezultadu husi lotaria KISS loron {drawdate}."
         scheduler:
@@ -257,8 +257,8 @@ tfc:
           check_after_hour: 23
           check_after_minute: 0
           check_after_draw_minute: 30
-          fixedRate-in-milliseconds: 5000
-          limitRow: 10
+          fixedRate-in-milliseconds: 2000
+          limitRow: 1
       smstpl:
         lucknumbersms: "{luckynumber} is your lucky number. Good luck!"
     news:
