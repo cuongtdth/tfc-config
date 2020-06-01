@@ -254,9 +254,9 @@ tfc:
         lose_message: "Ita nia numeru aposta {number} la par ho kualker rezultadu husi lotaria KISS loron {drawdate}."
         scheduler:
           active: true
-          check_after_hour: 23
+          check_after_hour: 22
           check_after_minute: 0
-          check_after_draw_minute: 30
+          check_after_draw_minute: 15
           fixedRate-in-milliseconds: 2000
           limitRow: 1
       smstpl:
