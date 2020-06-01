@@ -201,7 +201,18 @@ tfc:
         limitRow: 25
     modbalance:
       serviceId: LUCKYSTAR_MODBALANCE
-      mps_key_dir: /Users/cuongtd/TFC/key/LUCKYSTAR_MODBALANCE
+      mps_key_dir: /u01/app/luckystar/key/LUCKYSTAR_MODBALANCE
+      service: LUCKYSTAR
+      subService: LUCKYSTAR_MODBALANCE
+      url: http://10.226.46.22:9181/MPS/charge.html?
+      url-params:
+        pro: TFC
+        ser: LUCKYSTAR
+        sub: LUCKYSTAR_MODBALANCE
+        cmd: MODBALANCEM
+      data-params:
+      command: MODBALANCEM
+      proCode: 
     lottery:
       msg:
         help: Test - This is help message
@@ -231,7 +242,7 @@ tfc:
         sms_no_result_today: "Rezultadu seidauk iha. Favor koko oras tan. \nNo result today yet. Please try later."
       betting:
         serviceId: LUCKYSTAR_BETTING
-        mps_key_dir: /u01/app/luckystar/key/LUCKYSTAR_BETTING
+        mps_key_dir: /u01/app/luckystar/key/LUCKYSTAR_MODBALANCE
         bet_before_hour: 20
         wrong_syntax_message: "Deskulpa, Sintaxe loos mak: KISS XX. Numeru XX mak numeru dijitu rua neebe ita aposta. Favor koko fali!"
         over_time_message: "Oras aposta hahu 00:00 ba 20:00 lor-loron, favor koko hikas tempu seluk. Obrigadu!"

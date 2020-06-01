@@ -46,7 +46,7 @@ spring:
     type: com.zaxxer.hikari.HikariDataSource
     url: jdbc:oracle:thin:@localhost:1521:ORCLCDB
     username: luckystar
-    password: 1qazZAQ!
+    password: luckystar
     hikari:
       poolName: Hikari
       auto-commit: false
@@ -170,6 +170,17 @@ tfc:
     modbalance:
       serviceId: LUCKYSTAR_MODBALANCE
       mps_key_dir: /Users/cuongtd/TFC/key/LUCKYSTAR_MODBALANCE
+      service: LUCKYSTAR
+      subService: LUCKYSTAR_MODBALANCE
+      url: http://10.226.46.22:9181/MPS/charge.html?
+      url-params:
+        pro: TFC
+        ser: LUCKYSTAR
+        sub: LUCKYSTAR_MODBALANCE
+        cmd: MODBALANCEM
+      data-params:
+      command: MODBALANCEM
+      proCode: 
     lottery:
       msg:
         help: Test - This is help message
@@ -206,15 +217,15 @@ tfc:
         bet_success_message: "Aposta ho susesu. Ita aposta ona 10cent ba numeru {number} lotaria KISS (DE) iha loron {drawdate}. bele manan liu $3. Ami sei informa bainhira rezultadu disponivel. Boa Sorte."
         win_amount_1: 300
         win_message_1: "Parabens, ita manan {winamount} ba numeru aposta {number} ho premiu bola primeiru lotaria KISS iha {drawdate}. Hatan DE (20cent/tempu) ka ON DE (10cent/loron) hodi haree rezultadu."
-        win_amount_2: 25
+        win_amount_2: 30
         win_message_2: "Parabens, ita manan {winamount} ba numeru aposta {number} dala {wintimes} ho lotaria KISS iha {drawdate}. Hatan DE (20cent/tempu) ka ON DE (10cent/loron) hodi haree rezultadu."
         lose_message: "Ita nia numeru aposta {number} la par ho kualker rezultadu husi lotaria KISS loron {drawdate}."
         scheduler:
           active: true
-          check_after_hour: 23
+          check_after_hour: 18
           check_after_minute: 0
           check_after_draw_minute: 30
-          fixedRate-in-milliseconds: 5000
+          fixedRate-in-milliseconds: 50000
           limitRow: 10
       smstpl:
         lucknumbersms: "{luckynumber} is your lucky number. Good luck!"
