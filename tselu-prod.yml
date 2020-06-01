@@ -177,7 +177,7 @@ tselu:
     wrong_syntax_message: ""
   modbalance:
     serviceId: TSELU_MODBALANCE
-    mps_key_dir: /Users/cuongtd/TFC/key/TSELU_MODBALANCE
+    mps_key_dir: /u01/app/luckystar/key/TSELU_MODBALANCE
     service: LUCKYSTAR
     subService: TSELU_MODBALANCE
     url: http://10.226.46.22:9181/MPS/charge.html?
