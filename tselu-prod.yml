@@ -42,8 +42,8 @@ spring:
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
     url: jdbc:oracle:thin:@(DESCRIPTION=(LOAD_BALANCE=yes)(ADDRESS=(PROTOCOL=TCP)(HOST=10.226.45.64)(PORT=1521))(ADDRESS=(PROTOCOL=TCP)(HOST=10.226.45.74)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=tmovas)))
-    username: luckystar
-    password: 12at5yKcu7
+    username: tselu
+    password: e#slkfjI2jsfakv
     hikari:
       poolName: Hikari
       auto-commit: false
