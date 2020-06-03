@@ -173,7 +173,7 @@ tselu:
       active: false
       fixedRate-in-milliseconds: 5000
       limitRow: 50
-    success_message: "[Tselu.com] Ita selu ona {fee} hodi sosa {point} UC PUBG mobile game. Kodigu Voucher mak {code}. Asesu https://bit.ly/PUBGTimor hodi redeem. Obrigadu."
+    success_message: "[Tselu.com] Ita selu ona {fee} hodi sosa {point} UC PUBG mobile game. Kodigu Voucher mak {vouchercode}. Asesu https://bit.ly/PUBGTimor hodi redeem. Obrigadu."
     wrong_syntax_message: ""
     out-of-stock-PUBG60: "Tipu UC nebe ita sosa ekspiradu ona. Favor koko fali ho level seluk: PUBG325, PUBG660"
     out-of-stock-PUBG325: "Tipu UC nebe ita sosa ekspiradu ona. Favor koko fali ho level seluk: PUBG60, PUBG660"
