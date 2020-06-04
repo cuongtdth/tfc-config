@@ -23,6 +23,7 @@ logging:
     org.springframework.ws.server.MessageTracing.received: INFO
     org.springframework.ws.client.MessageTracing.sent: INFO
     org.springframework.ws.client.MessageTracing.received: INFO
+    com.tfc.luckystar.ScheduledTaskBet: DEBUG
 
 eureka:
   instance:
