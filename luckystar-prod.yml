@@ -256,7 +256,7 @@ tfc:
         scheduler:
           active: true
           check_after_hour: 21
-          check_after_minute: 0
+          check_after_minute: 30
           check_after_draw_minute: 15
           fixedRate-in-milliseconds: 2000
           limitRow: 1
