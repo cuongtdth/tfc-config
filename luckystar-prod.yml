@@ -198,8 +198,8 @@ tfc:
     sms:
       mtScheduler:
         active: true
-        fixedRate-in-milliseconds: 5000
-        limitRow: 25
+        fixedRate-in-milliseconds: 2000
+        limitRow: 10
     modbalance:
       serviceId: LUCKYSTAR_MODBALANCE
       mps_key_dir: /u01/app/luckystar/key/LUCKYSTAR_MODBALANCE
