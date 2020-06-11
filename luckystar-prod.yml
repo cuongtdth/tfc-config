@@ -250,7 +250,7 @@ tfc:
         serviceId: LUCKYSTAR_BETTING
         mps_key_dir: /u01/app/luckystar/key/LUCKYSTAR_MODBALANCE
         bet_before_hour: 20
-        wrong_syntax_message: "Deskulpa, Sintaxe loos mak: KISS XX. Numeru XX mak numeru dijitu rua neebe ita aposta. Favor koko fali!"
+        wrong_syntax_message: "Deskulpa, Sintaxe loos mak: KISS XX. Numeru XX mak numeru dijitu rua neebe ita aposta. Ezemplu: KISS {randomNumber} ba 777. Favor koko fali!"
         over_time_message: "Oras aposta hahu 00:00 ba 20:00 lor-loron, favor koko hikas tempu seluk. Obrigadu!"
         bet_success_message: "Aposta ho susesu. Ita aposta ona 10cent ba numeru {number} lotaria KISS (DE) iha loron {drawdate}. bele manan liu $3. Ami sei informa bainhira rezultadu disponivel. Boa Sorte."
         win_amount_1: 300
