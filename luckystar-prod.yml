@@ -200,9 +200,9 @@ tfc:
     sms:
       mtScheduler:
         active: true
-        cron: "1/3 * * * * ?"
+        cron: "1/2 * * * * ?"
         fixedRate-in-milliseconds: 2000
-        limitRow: 10
+        limitRow: 25
     modbalance:
       serviceId: LUCKYSTAR_MODBALANCE
       mps_key_dir: /u01/app/luckystar/key/LUCKYSTAR_MODBALANCE
@@ -261,7 +261,7 @@ tfc:
         scheduler:
           active: true
           check_after_hour: 21
-          check_after_minute: 30
+          check_after_minute: 0
           check_after_draw_minute: 15
           fixedRate-in-milliseconds: 2000
           cron: "1/5 * 20-23,0-12 * * ?"
