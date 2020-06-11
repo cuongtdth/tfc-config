@@ -15,9 +15,9 @@
 
 logging:
   level:
-    ROOT: DEBUG
-    io.github.jhipster: DEBUG
-    com.tfc.luckystar: DEBUG
+    ROOT: INFO
+    io.github.jhipster: INFO
+    com.tfc.luckystar: INFO
     org.springframework.web.client.RestTemplate: TRACE
 
 eureka:
@@ -64,6 +64,7 @@ spring:
       hibernate.cache.hazelcast.instance_name: luckystar
       hibernate.cache.use_minimal_puts: true
       hibernate.cache.hazelcast.use_lite_member: true
+      hibernate.jdbc.time_zone: UTC
   liquibase:
     # Remove 'faker' if you do not want the sample data to be loaded automatically
     contexts: dev, faker
@@ -152,6 +153,8 @@ jhipster:
 
 tfc:
   luckystar:
+    sample:
+      cron: "-"
     smsgw:
       shortcode: 777
       alias: 777
@@ -165,6 +168,7 @@ tfc:
     sms:
       mtScheduler:
         active: false
+        cron: "-"
         fixedRate-in-milliseconds: 5000
         limitRow: 50
     modbalance:
@@ -193,6 +197,7 @@ tfc:
         draw-time: "11:30:00"
         resultScheduler:
           active: false
+          cron: "-"
           fixedRate-in-milliseconds: 15000
           limitRow: 50
         phone.approve: "75511095"
@@ -204,6 +209,7 @@ tfc:
         draw-time: "21:30:00"
         resultScheduler:
           active: false
+          cron: "-"
           fixedRate-in-milliseconds: 15000
           limitRow: 50
         sms_template: "Fitun Lottery on {drawdate}: \n{result}. \nResultadu ba referensia."
@@ -221,7 +227,8 @@ tfc:
         win_message_2: "Parabens, ita manan {winamount} ba numeru aposta {number} dala {wintimes} ho lotaria KISS iha {drawdate}. Hatan DE (20cent/tempu) ka ON DE (10cent/loron) hodi haree rezultadu."
         lose_message: "Ita nia numeru aposta {number} la par ho kualker rezultadu husi lotaria KISS loron {drawdate}."
         scheduler:
-          active: true
+          active: false
+          cron: "-"
           check_after_hour: 18
           check_after_minute: 0
           check_after_draw_minute: 30
@@ -234,23 +241,27 @@ tfc:
         serviceId: LUCKYSTAR_SPORTNEWS
         scheduler:
           active: false
+          cron: "-"
           fixedRate-in-milliseconds: 45000
           limitRow: 50
       starnews:
         serviceId: LUCKYSTAR_STARNEWS
         scheduler:
           active: false
+          cron: "-"
           fixedRate-in-milliseconds: 45000
           limitRow: 50
       hundredYearsAgo:
         serviceId: LUCKYSTAR_100YEARSAGO
         scheduler:
           active: false
+          cron: "-"
           fixedRate-in-milliseconds: 45000
           limitRow: 50
       healthnews:
         serviceId: LUCKYSTAR_HEALTHNEWS
         scheduler:
           active: false
+          cron: "-"
           fixedRate-in-milliseconds: 15000
           limitRow: 50

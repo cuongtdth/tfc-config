@@ -185,6 +185,8 @@ jhipster:
 
 tfc:
   luckystar:
+    sample:
+      cron: "-"
     smsgw:
       shortcode: 777
       alias: 777
@@ -198,6 +200,7 @@ tfc:
     sms:
       mtScheduler:
         active: true
+        cron: "1/3 * * * * ?"
         fixedRate-in-milliseconds: 2000
         limitRow: 10
     modbalance:
@@ -226,6 +229,7 @@ tfc:
         draw-time: "21:30:00"
         resultScheduler:
           active: true
+          cron: "1/20 * * * * ?"
           fixedRate-in-milliseconds: 10000
           limitRow: 25
         phone.approve: "75511095"
@@ -237,6 +241,7 @@ tfc:
         draw-time: "21:30:00"
         resultScheduler:
           active: false
+          cron: "-"
           fixedRate-in-milliseconds: 10000
           limitRow: 25
         sms_template: "Fitun Lottery on {drawdate}: \n{result}. \nResultadu ba referensia."
@@ -259,7 +264,8 @@ tfc:
           check_after_minute: 30
           check_after_draw_minute: 15
           fixedRate-in-milliseconds: 2000
-          limitRow: 1
+          cron: "1/5 * 20-23,0-12 * * ?"
+          limitRow: 5
       smstpl:
         lucknumbersms: "{luckynumber} is your lucky number. Good luck!"
     news:
@@ -267,23 +273,27 @@ tfc:
         serviceId: LUCKYSTAR_SPORTNEWS
         scheduler:
           active: true
+          cron: "1/22 * * * * ?"
           fixedRate-in-milliseconds: 30000
           limitRow: 25
       starnews:
         serviceId: LUCKYSTAR_STARNEWS
         scheduler:
           active: true
+          cron: "1/24 * * * * ?"
           fixedRate-in-milliseconds: 30000
           limitRow: 25
       hundredYearsAgo:
         serviceId: LUCKYSTAR_100YEARSAGO
         scheduler:
           active: true
+          cron: "1/29 * * * * ?"
           fixedRate-in-milliseconds: 30000
           limitRow: 25
       healthnews:
         serviceId: LUCKYSTAR_HEALTHNEWS
         scheduler:
           active: true
+          cron: "1/46 * * * * ?"
           fixedRate-in-milliseconds: 30000
           limitRow: 25
