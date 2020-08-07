@@ -174,9 +174,9 @@ tselu:
     out-of-stock-PUBG60: "Tipu UC nebe ita sosa ekspiradu ona. Favor koko fali ho level seluk: PUBG325, PUBG660"
     out-of-stock-PUBG325: "Tipu UC nebe ita sosa ekspiradu ona. Favor koko fali ho level seluk: PUBG60, PUBG660"
     out-of-stock-PUBG660: "Tipu UC nebe ita sosa ekspiradu ona. Favor koko fali ho level seluk: PUBG60, PUBG325"
-  priceMap: {PUBG60: '150', PUBG325: '750', PUBG660: '1350', PUBG1800: '3200', PUBG3850: '6350', PUBG8100: '12000'}
-  ucIdMap: {PUBG60: '1', PUBG325: '2', PUBG660: '3', PUBG1800: '4', PUBG3850: '5', PUBG8100: '6'}
-  ucMap: {PUBG60: '60', PUBG325: '325', PUBG660: '660', PUBG1800: '1800', PUBG3850: '3850', PUBG8100: '8100'}
+  priceMap: {'PUBG60': '150', 'PUBG325': '750', 'PUBG660': '1350', 'PUBG1800': '3200', 'PUBG3850': '6350', 'PUBG8100': '12000'}
+  ucIdMap: {'PUBG60': '1', 'PUBG325': '2', 'PUBG660': '3', 'PUBG1800': '4', 'PUBG3850': '5', 'PUBG8100': '6'}
+  ucMap: {'PUBG60': '60', 'PUBG325': '325', 'PUBG660': '660', 'PUBG1800': '1800', 'PUBG3850': '3850', 'PUBG8100': '8100'}
   modbalance:
     serviceId: TSELU_MODBALANCE
     mps_key_dir: /Users/cuongtd/TFC/key/PUBG_MODBALANCE
