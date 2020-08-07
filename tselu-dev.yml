@@ -179,7 +179,7 @@ tselu:
   ucMap: {PUBG60: '60', PUBG325: '325', PUBG660: '660', PUBG1800: '1800', PUBG3850: '3850', PUBG8100: '8100'}
   modbalance:
     serviceId: TSELU_MODBALANCE
-    mps_key_dir: /Users/cuongtd/TFC/key/TSELU_MODBALANCE
+    mps_key_dir: /Users/cuongtd/TFC/key/PUBG_MODBALANCE
     service: LUCKYSTAR
     subService: TSELU_MODBALANCE
     url: http://10.226.46.22:9181/MPS/charge.html?
@@ -190,4 +190,5 @@ tselu:
       cmd: MODBALANCEM
     data-params:
     command: MODBALANCEM
-    proCode: 
+    proCode: Paraizu
+    categoryMap: {'150': 'PUGB60', '750': 'PUGB325', '1350': 'PUGB660', '3200': 'PUGB1800', '6350': 'PUGB3850', '12000': 'PUGB8100'}
