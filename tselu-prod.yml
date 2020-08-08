@@ -180,21 +180,26 @@ tselu:
       fixedRate-in-milliseconds: 5000
       limitRow: 50
     success_message: "[Tselu.com] Ita selu ona {fee} hodi sosa {point} UC PUBG mobile game. Kodigu Voucher mak {vouchercode}. Asesu https://bit.ly/PUBGTimor hodi redeem. Obrigadu."
+    error_message: "System error. Please try again later"
     wrong_syntax_message: ""
     out-of-stock-PUBG60: "Tipu UC nebe ita sosa ekspiradu ona. Favor koko fali ho level seluk: PUBG325, PUBG660"
     out-of-stock-PUBG325: "Tipu UC nebe ita sosa ekspiradu ona. Favor koko fali ho level seluk: PUBG60, PUBG660"
     out-of-stock-PUBG660: "Tipu UC nebe ita sosa ekspiradu ona. Favor koko fali ho level seluk: PUBG60, PUBG325"
+  priceMap: "{PUBG60: 150, PUBG325: 750, PUBG660: 1350, PUBG1800: 3200, PUBG3850: 6350, PUBG8100: 12000}"
+  ucIdMap: "{PUBG60: 1, PUBG325: 2, PUBG660: 3, PUBG1800: 4, PUBG3850: 5, PUBG8100: 6}"
+  ucMap: "{PUBG60: 60, PUBG325: 325, PUBG660: 660, PUBG1800: 1800, PUBG3850: 3850, PUBG8100: 8100}"
+  categoryMap: "{150: PUGB60, 750: PUGB325, 1350: PUGB660, 3200: PUGB1800, 6350: PUGB3850, 12000: PUGB8100}"
   modbalance:
     serviceId: TSELU_MODBALANCE
-    mps_key_dir: /u01/app/luckystar/key/TSELU_MODBALANCE
-    service: LUCKYSTAR
+    mps_key_dir: /u01/app/luckystar/key/PUBG_MODBALANCE
+    service: Tselu
     subService: TSELU_MODBALANCE
     url: http://10.226.46.22:9181/MPS/charge.html?
     url-params:
-      pro: TFC
-      ser: TSELU
-      sub: TSELU_MODBALANCE
+      pro: Paraizu
+      ser: Tselu
+      sub: PUBG_MODBALANCE
       cmd: MODBALANCEM
     data-params:
     command: MODBALANCEM
-    proCode: 
+    proCode: Paraizu

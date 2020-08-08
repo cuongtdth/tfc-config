@@ -64,7 +64,7 @@ spring:
       hibernate.cache.use_minimal_puts: true
       hibernate.cache.hazelcast.use_lite_member: true
   liquibase:
-    # Remove 'faker' if you do not want the sample data to be loaded automatically
+    # Remove faker if you do not want the sample data to be loaded automatically
     contexts: dev, faker
     enabled: false
   mail:
@@ -163,7 +163,7 @@ tselu:
     url-login: http://202.43.164.206:8800/api/login
     url-purchase-voucher: http://202.43.164.206:8800/api/purchase-voucher
     email: vas@telemor.tl
-    password: jkhf94ry8934r98f9jshjh342
+    password: TFC1qazZAQ!
     accessToken: 
   sms:
     mtScheduler:
@@ -171,13 +171,15 @@ tselu:
       fixedRate-in-milliseconds: 5000
       limitRow: 50
     success_message: "[Tselu.com] Ita selu ona {fee} hodi sosa {point} UC PUBG mobile game. Kodigu Voucher mak {vouchercode}. Asesu https://bit.ly/PUBGTimor hodi redeem. Obrigadu."
+    error_message: "System error. Please try again later"
     wrong_syntax_message: ""
     out-of-stock-PUBG60: "Tipu UC nebe ita sosa ekspiradu ona. Favor koko fali ho level seluk: PUBG325, PUBG660"
     out-of-stock-PUBG325: "Tipu UC nebe ita sosa ekspiradu ona. Favor koko fali ho level seluk: PUBG60, PUBG660"
     out-of-stock-PUBG660: "Tipu UC nebe ita sosa ekspiradu ona. Favor koko fali ho level seluk: PUBG60, PUBG325"
-  priceMap: {'PUBG60': '150', 'PUBG325': '750', 'PUBG660': '1350', 'PUBG1800': '3200', 'PUBG3850': '6350', 'PUBG8100': '12000'}
-  ucIdMap: "{'PUBG60': '1', 'PUBG325': '2', 'PUBG660': '3', 'PUBG1800': '4', 'PUBG3850': '5', 'PUBG8100': '6'}"
-  ucMap: {'PUBG60': '60', 'PUBG325': '325', 'PUBG660': '660', 'PUBG1800': '1800', 'PUBG3850': '3850', 'PUBG8100': '8100'}
+  priceMap: "{PUBG60: 150, PUBG325: 750, PUBG660: 1350, PUBG1800: 3200, PUBG3850: 6350, PUBG8100: 12000}"
+  ucIdMap: "{PUBG60: 1, PUBG325: 2, PUBG660: 3, PUBG1800: 4, PUBG3850: 5, PUBG8100: 6}"
+  ucMap: "{PUBG60: 60, PUBG325: 325, PUBG660: 660, PUBG1800: 1800, PUBG3850: 3850, PUBG8100: 8100}"
+  categoryMap: "{150: PUGB60, 750: PUGB325, 1350: PUGB660, 3200: PUGB1800, 6350: PUGB3850, 12000: PUGB8100}"
   modbalance:
     serviceId: TSELU_MODBALANCE
     mps_key_dir: /Users/cuongtd/TFC/key/PUBG_MODBALANCE
@@ -192,4 +194,3 @@ tselu:
     data-params:
     command: MODBALANCEM
     proCode: Paraizu
-    categoryMap: {'150': 'PUGB60', '750': 'PUGB325', '1350': 'PUGB660', '3200': 'PUGB1800', '6350': 'PUGB3850', '12000': 'PUGB8100'}
