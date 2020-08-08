@@ -171,7 +171,7 @@ tselu:
   voucher-api:
     url-login: "http://202.43.164.206:8800/api/login"
     url-purchase-voucher: "http://202.43.164.206:8800/api/purchase-voucher"
-    email: vas@telemor.tl
+    email: "vas@telemor.tl"
     password: "TFC1qazZAQ!"
   sms:
     mtScheduler:

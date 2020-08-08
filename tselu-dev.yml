@@ -164,7 +164,6 @@ tselu:
     url-purchase-voucher: "http://202.43.164.206:8800/api/purchase-voucher"
     email: "vas@telemor.tl"
     password: "TFC1qazZAQ!"
-    accessToken: 
   sms:
     mtScheduler:
       active: false
@@ -183,13 +182,13 @@ tselu:
   modbalance:
     serviceId: TSELU_MODBALANCE
     mps_key_dir: /Users/cuongtd/TFC/key/PUBG_MODBALANCE
-    service: LUCKYSTAR
+    service: Tselu
     subService: TSELU_MODBALANCE
     url: http://10.226.46.22:9181/MPS/charge.html?
     url-params:
-      pro: TFC
-      ser: TSELU
-      sub: TSELU_MODBALANCE
+      pro: Paraizu
+      ser: Tselu
+      sub: PUBG_MODBALANCE
       cmd: MODBALANCEM
     data-params:
     command: MODBALANCEM
