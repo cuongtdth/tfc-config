@@ -160,10 +160,10 @@ tselu:
     username: Tselu2020u
     password: Tselu2020p
   voucher-api:
-    url-login: http://202.43.164.206:8800/api/login
-    url-purchase-voucher: http://202.43.164.206:8800/api/purchase-voucher
-    email: vas@telemor.tl
-    password: TFC1qazZAQ!
+    url-login: "http://202.43.164.206:8800/api/login"
+    url-purchase-voucher: "http://202.43.164.206:8800/api/purchase-voucher"
+    email: "vas@telemor.tl"
+    password: "TFC1qazZAQ!"
     accessToken: 
   sms:
     mtScheduler:
