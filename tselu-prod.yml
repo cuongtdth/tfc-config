@@ -18,6 +18,7 @@ logging:
     ROOT: DEBUG
     io.github.jhipster: DEBUG
     com.tfc.tselu: DEBUG
+    org.springframework.web.client.RestTemplate: TRACE
 
 eureka:
   instance:

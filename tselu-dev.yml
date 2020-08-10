@@ -193,3 +193,6 @@ tselu:
     data-params:
     command: MODBALANCEM
     proCode: Paraizu
+  otp:
+    valid-time-in-minutes: 5
+    sms-template: "Your OTP password is {otp}. It's valid in {validtime} minutes."
