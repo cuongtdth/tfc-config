@@ -198,3 +198,9 @@ tselu:
     data-params:
     command: MODBALANCEM
     proCode: Paraizu
+
+  task:
+    bonus-data:
+      active: true
+      sms-template: "You get {data} for purchasing {product}. Thank you!"
+      fixedRate-in-milliseconds: 5000
