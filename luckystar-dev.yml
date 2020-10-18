@@ -153,6 +153,7 @@ jhipster:
 
 tfc:
   luckystar:
+    mps-key-dir: /Users/cuongtd/TFC/key
     sample:
       cron: "-"
     smsgw:
@@ -227,8 +228,8 @@ tfc:
         win_message_2: "Parabens, ita manan {winamount} ba numeru aposta {number} dala {wintimes} ho lotaria KISS iha {drawdate}. Hatan DE (20cent/tempu) ka ON DE (10cent/loron) hodi haree rezultadu."
         lose_message: "Ita nia numeru aposta {number} la par ho kualker rezultadu husi lotaria KISS loron {drawdate}."
         scheduler:
-          active: false
-          cron: "-"
+          active: true
+          cron: "1/20 * * * * ?"
           check_after_hour: 18
           check_after_minute: 0
           check_after_draw_minute: 30

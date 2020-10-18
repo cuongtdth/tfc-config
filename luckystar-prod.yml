@@ -185,6 +185,7 @@ jhipster:
 
 tfc:
   luckystar:
+    mps-key-dir: /u01/app/luckystar/key
     sample:
       cron: "-"
     smsgw:
