@@ -63,7 +63,7 @@ spring:
       hibernate.cache.hazelcast.instance_name: tselu
       hibernate.cache.use_minimal_puts: true
       hibernate.cache.hazelcast.use_lite_member: true
-      hibernate.jdbc.time_zone: UTC
+      hibernate.jdbc.time_zone: Asia/Tokyo
   liquibase:
     # Remove faker if you do not want the sample data to be loaded automatically
     contexts: dev, faker
