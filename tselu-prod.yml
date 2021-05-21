@@ -198,7 +198,7 @@ tselu:
     out-of-stock-PUBG1800: "Tipu UC nebe ita sosa espiradu. Favor koko fali ho level seluk: PUBG60, PUBG325, PUBG660, PUBG3850"
     out-of-stock-PUBG3850: "Tipu UC nebe ita sosa espiradu. Favor koko fali ho level seluk: PUBG60, PUBG325, PUBG660, PUBG1800"
     out-of-stock-PUBG8100: "Tipu UC nebe ita sosa espiradu. Favor koko fali ho level seluk: PUBG60, PUBG325, PUBG660, PUBG1800, PUBG3850"
-  priceMap: "{PUBG60: 150, PUBG325: 750, PUBG660: 1350, PUBG1800: 3200, PUBG3850: 6350, PUBG8100: 12000}"
+  priceMap: "{PUBG60: 139, PUBG325: 649, PUBG660: 1249, PUBG1800: 2899, PUBG3850: 5999, PUBG8100: 11499}"
   ucIdMap: "{PUBG60: 1, PUBG325: 2, PUBG660: 3, PUBG1800: 4, PUBG3850: 5, PUBG8100: 6}"
   ucMap: "{PUBG60: 60, PUBG325: 325, PUBG660: 660, PUBG1800: 1800, PUBG3850: 3850, PUBG8100: 8100}"
   categoryMap: "{150: PUGB60, 750: PUGB325, 1350: PUGB660, 3200: PUGB1800, 6350: PUGB3850, 12000: PUGB8100}"
