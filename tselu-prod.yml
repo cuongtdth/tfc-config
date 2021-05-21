@@ -189,7 +189,7 @@ tselu:
       active: false
       fixedRate-in-milliseconds: 5000
       limitRow: 50
-    success_message: "[Tselu.com] Ita selu ona {fee} hodi sosa {point} UC PUBG mobile game. Kodigu Voucher mak {vouchercode}. Asesu https://www.midasbuy.com/midasbuy/ot/redeem/pubgm hodi redeem. Obrigadu."
+    success_message: "[Tselu.com] Ita selu ona {fee} hodi sosa {point} UC PUBG mobile game. Kodigu Voucher mak {vouchercode}. Asesu https://www.midasbuy.com/midasbuy/ot/redeem/pubgm hodi redeem. Total transasaun liu $50 iha fulan ida sei hetan gratis UC60. Obrigadu."
     error_message: "System error. Please try again later"
     wrong_syntax_message: ""
     out-of-stock-PUBG60: "Tipu UC nebe ita sosa espiradu. Favor koko fali ho level seluk: PUBG325, PUBG660, PUBG1800, PUBG3850"
