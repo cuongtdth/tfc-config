@@ -267,12 +267,12 @@ tfc:
         win_message_2: "Parabens, ita manan {winamount} ba numeru aposta {number} dala {wintimes} ho lotaria KISS iha {drawdate}. Hatan DE (20cent/tempu) ka ON DE (10cent/loron) hodi haree rezultadu."
         lose_message: "Ita nia numeru aposta {number} la par ho kualker rezultadu husi lotaria KISS loron {drawdate}."
         scheduler:
-          active: true
+          active: false
           check_after_hour: 21
           check_after_minute: 0
           check_after_draw_minute: 15
           fixedRate-in-milliseconds: 2000
-          cron: "1/5 * 20-23,0-12 * * ?"
+          cron: "-"
           limitRow: 5
       smstpl:
         lucknumbersms: "{luckynumber} is your lucky number. Good luck!"
