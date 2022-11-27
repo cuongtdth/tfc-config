@@ -207,8 +207,8 @@ tfc:
       # mps_key_dir: /Users/cuongtd/TFC/docs/luckydraw/key_add
     sms:
       mtScheduler:
-        active: true
-        cron: "1/2 * * * * ?"
+        active: false
+        cron: "-"
         fixedRate-in-milliseconds: 2000
         limitRow: 25
     modbalance:
@@ -294,14 +294,14 @@ tfc:
       hundredYearsAgo:
         serviceId: LUCKYSTAR_100YEARSAGO
         scheduler:
-          active: true
-          cron: "1/29 * * * * ?"
+          active: false
+          cron: "-"
           fixedRate-in-milliseconds: 30000
           limitRow: 25
       healthnews:
         serviceId: LUCKYSTAR_HEALTHNEWS
         scheduler:
-          active: true
-          cron: "1/46 * * * * ?"
+          active: false
+          cron: "-"
           fixedRate-in-milliseconds: 30000
           limitRow: 25
